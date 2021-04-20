@@ -4,7 +4,7 @@
 public class LeapYear {
 
     /**
-     * 
+     * Checks whether a given year is a leap year.
      * @param year
      */
     public static boolean isLeapYear(int year) {
