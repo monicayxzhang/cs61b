@@ -5,7 +5,7 @@ public class ArrayDeque<T> {
     private static int RFACTOR = 2;
 
     public ArrayDeque() {
-        items =  (T[]) new Object[8];
+        items = (T[]) new Object[8];
         firstind = 0;
         size = 0;
     }
@@ -95,9 +95,4 @@ public class ArrayDeque<T> {
         }
         System.out.println("");
     }
-
-/*    public void printLength() {
-        System.out.println(items.length);
-    }*/
-
 }
